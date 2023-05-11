@@ -12,6 +12,15 @@
     .author {
       font-size: 14px;
     }
+    .widget-container {
+      display: inline-block;
+      overflow: hidden;
+    }
+    .widget-container iframe {
+      width: 550px;
+      height: 500px;
+      border: 0;
+    }
   </style>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-8S43LPRPBW"></script>
@@ -25,7 +34,9 @@
 </head>
 <body>
   <h1>Network State Chatbot</h1>
-  <p class="author">by Noah Chon Lee</p>
-  <iframe src="https://retune.so/chat/11edefe2-5239-a3f0-b2b5-a15b004aff8d/widget?key=11edbf75-310a-4970-a236-45941de73e77" width="550" height="700" style="border:0;"></iframe>
+  <p class="author">by <a href="https://www.noahchonlee.com/">Noah Chon Lee</a></p>
+  <div class="widget-container">
+    <iframe src="https://retune.so/chat/11edefe2-5239-a3f0-b2b5-a15b004aff8d/widget?key=11edbf75-310a-4970-a236-45941de73e77"></iframe>
+  </div>
 </body>
 </html>
